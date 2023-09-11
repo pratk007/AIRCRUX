@@ -1,12 +1,50 @@
-1. Download or clone the github repo using the command 
-    git clone {url.git}
+# Flight Ticket Search Engine
 
-2. Copy and paste all the files from there into the htdocs folder of the xampp {C:\xampp\htdocs}
+## Overview
 
-3. Start both Apache and MySQL module in xampp Control Panel Application
+The Flight Ticket Search Engine is a web-based application designed to simplify the process of finding and booking flights. Users can sign up, search for available flights based on their preferences, add flights to their cart, and complete bookings. The system also includes admin functionalities for managing flight details.
 
-4. Go to https://localhost/phpmyadmin/ and there create a new database after clicking on the Database button.
+## Features
 
-5. Import the data from aircrux.sql file and then the tables will be imported to the localhost
+- **User Registration:** Users can sign up using a unique username and password.
+- **Flight Search:** Users can search for flights based on various criteria.
+- **Flight Listing:** Available flights are displayed with details such as aircraft type, departure, arrival, and pricing.
+- **Shopping Cart:** Users can add selected flights to their cart for booking.
+- **Booking and Payment:** Users can proceed to payment from the cart to confirm their bookings.
+- **Admin Features:** Admin users can manage flight details, including adding, updating, and deleting flights.
+- **Password Strength Check:** The system checks the strength of user passwords.
 
-6. After that go to https://localhost/homepage.html and there you go!!!
+## Methodology
+
+This project was developed using the following technologies and methods:
+
+- **Web Server and Database:** Utilized XAMPP for database management and PHP admin.
+- **User Authentication:** Implemented user registration and authentication with strong password validation.
+- **Flight Search and Listing:** Used PHP scripts to retrieve and display flight details.
+- **Shopping Cart and Payment:** Enabled users to add flights to their cart and complete bookings with payment processing.
+- **Admin Features:** Admin users have access to flight management functions.
+- **Additional Functionalities:** Utilized JavaScript for password strength checks, content display, and input validation.
+
+## Usage
+
+To use the Flight Ticket Search Engine, follow these steps:
+
+1. Ensure you have XAMPP or a similar web server and database setup.
+
+2. Import the provided database schema.
+
+3. Deploy the project files on your web server.
+
+4. Access the homepage (e.g., `localhost/homepage.html`) to start using the application.
+
+## Contributors
+
+This project was developed by Prateek Raj and [Other Contributors]. For more details, refer to the [CONTRIBUTORS.md](CONTRIBUTORS.md) file.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+We extend our gratitude to [Acknowledged Parties] for their support and guidance during the development of this project.
