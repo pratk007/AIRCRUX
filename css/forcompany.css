@@ -1,0 +1,96 @@
+.jumbotron {
+	background-color: #21295c; 
+	color: #ffffff;
+}
+.body{
+	background-image: url('dominik-bednarz-lvq_zGX7X3w-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.container-fluid{
+	background-color: #21295c;
+	margin-top: 50px;
+}
+.navbar-default{
+	background-color:black;
+}
+.btn{
+	position: absolute;
+    top:50%;
+    background-color: #21295c;
+    color: #fff;
+    border:none;
+    border-radius:50px;
+	min-height:30px; 
+    min-width: 100px;
+}
+.btn:hover{
+	background-color:#002ead;
+}
+.container-form{
+	background-color: rgba(158, 179, 194,0.3);
+	border-radius: 50px;
+	margin-top: 50px;
+	width: 1000px;
+}
+.form-group{
+	margin-top: 40px;
+	/* border-radius: ; */
+	/* margin-bottom: 30px; */
+}
+.form-control{
+	border-radius: 50px;
+	font-size: 15px;
+}
+.control-label{
+	font-size: 16px;
+	padding: 5px 5px 5px 5px;
+	margin-right: 50px;
+}
+/* Add a dark blue background color with a little bit see-through */ 
+.navbar {
+	margin-bottom: 0;
+	background-color: #0066cc;
+	border: 0;
+	font-size: 18px !important;
+	letter-spacing: 2px;
+	opacity: 0.9;
+}
+/* Add light blue color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+	color: #00ccff !important;
+}
+/* On hover, the links will turn white */
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #0000ff !important;
+	background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+/* Add a dark background color to the footer */
+footer {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 32px;
+	font-size: 18px;
+	
+}
+
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #00ccff;
+	opacity: 0.9;
+}
+
+#smile{
+	width: 200px;
+	height: 200px;
+}
+
+#total{
+	background-color: yellow;
+}

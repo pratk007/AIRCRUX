@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		.button1 {
+  			transition-duration: 0.4s;
+		}
+
+		.button1:hover {
+  			background-color: #4CAF50; /* Green */
+  			color: white;
+		}
+	</style>
+	<title>Airprice.com - airline tickets, cheap flights</title>
+	<meta name="language" content="english" />
+	<meta name="keywords" content="airprice, travel, cheap airfare, discount airfare" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="https://lh3.googleusercontent.com/-HtZivmahJYI/VUZKoVuFx3I/AAAAAAAAAcM/thmMtUUPjbA/Blue_square_A-3.PNG" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="forcompany.css">
+	<!-- <link rel="stylesheet" href="customersignin.css"> -->
+	<link rel="stylesheet" href="AdminSignin.css">
+		<script src="login.js"> </script>
+	<style>
+		#signin {
+	background-color: rgba(94, 229, 237,0.2);
+	width: 800px;
+	color: #f9f7f4;
+	height: 450px;
+	border-radius: 25px;
+}
+.body{
+	background-image: url('dominik-bednarz-lvq_zGX7X3w-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
+}
+/*.btn-primary {
+	width: 50%;
+	padding-left: 250px;
+	padding-right: 250px;
+  }
+*/
+/*
+.btn:hover {
+	color: aqua;/*#f9f7f4;*/
+/*	background-color: aqua;
+	border-color: aqua;
+	width: 50%;
+  }
+  */
+.btn{
+	position: absolute;
+    top:50%;
+    background-color: #21295c;
+    color: #fff;
+    border:none;
+    border-radius:50px;
+	min-height:30px; 
+    min-width: 100px;
+}
+.btn:hover{
+	background-color:#002ead;
+}
+#signin a {
+	color: #000000;
+	/*33ff00;*/
+}
+#main {
+	width: 700px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+	</style>
+</head>
+
+
+<body id="signUpPage" class ="body" data-spy="scroll" data-target=".navbar" data-offset="60" style="background-color:#9EB3C2">
+	<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#1B3B6F">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="homepage.html"><span class="glyphicon glyphicon-home"></span> Home</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right" style="background-color:#21295C">
+					<li id = "cart">
+						<a class="navbar-brand" href="cartshow.php"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a>
+					</li>
+
+
+					<li class="dropdown" id = "new">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"> Sign in&nbsp;</span><span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+						  <li><a href="signup.html">Register</a></li>
+						  
+						  <li class="dropdown-submenu">
+							<a tabindex="-1" href="#">Sign in</a>
+							<ul class="dropdown-menu">
+							  <li><a tabindex="-1" href="Adminpage.html">Manager Sign in</a></li>
+							  <li><a href="customersignin.html">Customer Sign in</a></li>
+							  </li>
+						
+					
+							</ul>
+						  </li>
+						
+						</ul>
+					</li>
+					  <li class="dropdown" id = "old">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" ><span class="glyphicon glyphicon-user" id="wuser">Welcom!</span>
+						<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+							<li><a href="showhistory.php">History</a></li>							
+							<li><a href="#" id="logout">Sign out</a></li>
+						</ul>
+						</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron text-center" style="background-color:#21295C">
+		<img src="aircrux.svg" width="200" height="200">
+		<h1>Best ticket prices on air?</h1> 
+		<!--<p>We specialize in your air plan!</p>--> 
+	</div>
+	
+	<div class="container" id="signin" style="background-color:rgba(94, 229, 237,0.2)">
+		<h2 style="text-align:center">Customer sign-in</h2>
+		<p >We want your visit to be fast and easy.  Please enter your username and password to get started. If you need to set up your profile, please <a href="signup.html">register now</a>.</p>
+
+		<form action="login.php" method="post">
+		<div class="container" id="main">
+			<h4 >Enter Username:</h4>
+			<input type="text" class="form-control" id="username" placeholder="Enter Your Username" name="username" required>
+			<h4>Enter Password:</h4>
+			<input type="password" class="form-control" id="pwd" placeholder="Enter Your Password" name="pwd" required>
+			
+		</div>
+		<br />
+		<div class="col-sm-offset-2 col-sm-6">
+			<div class="checkbox">
+				<label><input type="checkbox"> Remember my username when I return</label>
+			</div>
+		</div>
+		
+		<div class="col-sm-offset-2 col-sm-8">
+			<button type="submit" class="btn btn-primary" name="btn-login" style="background-color:#21295C" >Sign In</button><!--success btn-block-->
+		</div>
+		</form>
+
+	</div>
+	<br /><br />
+	<footer class="container-fluid text-center" style="background-color:#21295C">
+		<a href="#signUpPage" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+		<p>Airprice.com</p>		
+	</footer>
+</body>
+</html>

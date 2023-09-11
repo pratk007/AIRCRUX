@@ -1,0 +1,102 @@
+#homepage {
+	background-color: rgba(94, 229, 237,0.2);
+	border-radius: 20px;
+	width: 800px;
+	font-size: 16px;
+	height: 600px;
+	position:absolute;
+	top:100px;
+	left:220px;
+
+}
+#cart{
+	border-color: #1b3b6f;
+}
+#cart:hover{
+	background-color: #9eb3c2!important;
+	border-color: #21295c!important;
+	color:#21295c!important;
+}
+.navbar-brand:hover{
+	background-color: #9eb3c2!important;
+	border-color: #21295c!important;
+	color:#21295c!important;
+}
+#logo{
+	height:200px;
+	width:200px;
+}
+h4 {
+	font-weight: bold;
+}
+nav{
+	background-color: #1b3b6f;
+}
+.form-control{
+	border-radius: 50px ;
+	border-color: #21295c;
+	border-width: 1px;
+
+}
+.col-sm-6{
+	margin-bottom: 20px;
+}
+.jumbotron{
+	background-color: #21295c;
+	margin-bottom: 0;
+}
+.heropage{
+	background-color: #9eb3c2;
+	width:100vw;
+	height:800px;
+	position:relative;
+	align-items: center;
+}
+.btn-groupc{
+	display:inline;
+	align-content: space-between;
+	justify-content: space-evenly;
+	
+	
+}
+
+.btn-primary{
+	border-color: #9eb3c2;
+	background-color: #21295c;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	
+}
+.btn-primary:hover{
+	border-color: #21295c;
+	background-color: #9eb3c2;
+	color:#21295c;
+	font-weight: bold;
+}
+
+.btn{
+	align-content: space-between;
+	justify-content: space-evenly;
+	border-color: #9eb3c2;
+	background-color: #21295c;
+	border-radius: 20px;
+
+}
+.btn:hover{
+	border-color: #21295c;
+	background-color: #9eb3c2;
+	color:#21295c;
+	font-weight: bold;
+}
+
+.bottom{
+	background-color: #21295c;
+}
+#paeiment{
+	position:relative;
+	align-self: center;
+}
+#pay-head{
+	position:absolute;
+	left:20px;
+}

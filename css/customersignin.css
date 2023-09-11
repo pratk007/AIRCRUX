@@ -1,0 +1,49 @@
+#signin {
+	background-color: rgba(94, 229, 237,0.2);
+	width: 800px;
+	color: #f9f7f4;
+	height: 450px;
+	border-radius: 25px;
+}
+.body{
+	background-image: url('dominik-bednarz-lvq_zGX7X3w-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
+}
+/*.btn-primary {
+	width: 50%;
+	padding-left: 250px;
+	padding-right: 250px;
+  }
+*/
+/*
+.btn:hover {
+	color: aqua;/*#f9f7f4;*/
+/*	background-color: aqua;
+	border-color: aqua;
+	width: 50%;
+  }
+  */
+.btn{
+	position: absolute;
+    top:50%;
+    background-color: #21295c;
+    color: #fff;
+    border:none;
+    border-radius:50px;
+	min-height:30px; 
+    min-width: 100px;
+}
+.btn:hover{
+	background-color:#002ead;
+}
+#signin a {
+	color: #000000;
+	/*33ff00;*/
+}
+#main {
+	width: 700px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
